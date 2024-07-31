@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, sans-serif;
+}
+
+.start-screen {
+    margin: 0 auto 0 auto;
+    width: 1280px;
+    height: 908px;
+    background: url("media/start-screen-gradient-background.png");
+    background-size: cover;
+    /*background: radial-gradient(circle at top left, #5B483A, transparent),*/
+    /*linear-gradient(0deg, #211F20, #211F20);*/
+}
+
+header {
+    width: 1200px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin: 0 auto 0 auto;
+}
+
+header div h3 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+header div p {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+header ul {
+    width: 443px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #CDCDCD;
+}
+
+header li:first-of-type {
+    padding-bottom: 4px;
+    border-bottom: 3px solid #F1CDB3;
+}
+
+.start-screen-info {
+    display: flex;
+}
+
+.text h1 {
+    margin: 163px 0 0 40px;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 57px;
+    width: 310px;
+    height: 114px;
+    color: white;
+}
+
+.text p {
+    width: 460px;
+    height: 72px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #CDCDCD;
+    margin: 42px 0 0 40px;
+}
+
+.text button {
+    width: 207px;
+    height: 52px;
+    border-radius: 100px;
+    background: #F1CDB3;
+    margin: 42px 0 0 40px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    border: none;
+}
+
+.start-screen-info img {
+    margin: 60px 0 0 42px;
+}
+
+.second-screen {
+    margin: 80px auto 100px auto;
+    width: 1280px;
+    height: 588px;
+    display: flex;
+    align-items: center;
+}
+
+.second-screen img {
+    margin: 0 170px 0 175px;
+}
+
+.pets-content {
+    width: 430px;
+    height: 380px;
+    margin: auto 0 auto 0;
+}
+
+.pets-content h3 {
+    width: 370px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.pets-content p:first-of-type {
+    margin: 25px 0;
+}
+
+.pets-content p {
+    width: 430px;
+    height: 96px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4C4C4C;
+}
+
+.third-screen {
+    width: 1200px;
+    height: 697px;
+    margin: 80px auto 100px auto;
+    background: #F6F6F6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.third-screen h3 {
+    width: 400px;
+    height: 90px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.pets-cards {
+    width: 1200px;
+    height: 435px;
+    margin: 60px 105px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+.pet-card {
+    width: 270px;
+    height: 435px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pets-card img {
+    border-radius: 9px 9px 0 0;
+}
+
+.pet-card p {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.pet-card button {
+    margin: 30px auto 0 auto;
+    width: 187px;
+    height: 52px;
+    border-radius: 50px;
+    border: 2px solid #F1CDB3;
+    color: #292929;
+    background: rgba(255, 255, 255, 0);
+}
+
+.third-screen > button {
+    width: 261px;
+    height: 52px;
+    border-radius: 100px;
+    background: #F1CDB3;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+}
+
+.fourth-screen {
+    width: 1200px;
+    height: 431px;
+    margin: 53px auto 100px auto;
+}
+.fourth-screen h3{
+    width: 308px;
+    height: 90px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin: 0 auto;
+    color: #545454;
+}
+.icons{
+    width: 1026px;
+    height: 281px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 60px auto 0 auto;
+}
+.list-top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.list-bottom{
+    margin: 0 auto;
+    width: 858px;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.icon-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.icon-item img{
+    width: 60px;
+}
+.icon-item p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin-top: 30px;
+    color: #545454;
+}
+
+.fifth-screen {
+    width: 915px;
+    height: 282px;
+    margin: 80px auto 100px auto;
+    display: flex;
+}
+.fifth-screen>img{
+    width: 505px;
+    height: 261px;
+    margin: auto 0;
+}
+.donation h3{
+    width: 300px;
+    height: 90px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.donation h6{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #545454;
+}
+.bank-id{
+    background: #F1CDB3;
+    margin-top: 20px;
+    width: 349px;
+    height: 43px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bank-id img{
+    width: 30px;
+    height: 23px;
+}
+.bank-id>p{
+    color: #545454;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+}
+.donation>p{
+    margin-top: 20px;
+    width: 380px;
+    height: 72px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    color: #B2B2B2;
+}
+
+
+
+
