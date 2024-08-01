@@ -244,7 +244,8 @@
         width: 320px;
         height: 830px;
         flex-direction: column;
-       align-items: center;
+        align-items: center;
+        padding: 0;
     }
     .footer-info{
         justify-content: center;
@@ -257,13 +258,20 @@
         text-align: center;
     }
     .footer-info{
+        margin-top: 40px;
+        height: 32px;
         width: 300px;
+    }
+    .footer-info p{
+        margin-top: 0;
     }
     footer>img{
         width: 260px;
         height: 269px;
     }
-
+    .add{
+        justify-content: flex-start;
+    }
 
 
 }
