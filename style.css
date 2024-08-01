@@ -336,6 +336,44 @@ header li:first-of-type {
     line-height: 18px;
     color: #B2B2B2;
 }
+footer{
+    margin: 0 auto;
+    width: 1280px;
+    height: 350px;
+    background: url("media/footer-gradient-background.png");
+    background-size: cover;
+    display: flex;
+    padding: 40px 40px 0 40px;
+    justify-content: space-between;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+.contacts h3{
+    width: 278px;
+    height: 90px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.footer-info img{
+    margin-right: 20px;
+}
+.footer-info {
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    margin-top: 40px;
+}
 
 
 
